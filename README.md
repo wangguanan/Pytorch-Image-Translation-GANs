@@ -9,7 +9,7 @@ Pytorch implementations of most popular image-translation GANs, including [Pixel
 ### Datasets
 * [Pixel2Pixel (Facade)](http://cmp.felk.cvut.cz/~tylecr1/facade/CMP_facade_DB_base.zip).
 * [CycleGAN (Apple2Orange)](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/apple2orange.zip).
-* [StarGAN (Celeba)](https://pan.baidu.com/s/1eSNpdRG#list/path=%2F): download 'CelebA/Img/img_align_celeba.zip' and 'CelebA/Anno/list_attr_celeba.txt'.
+* [StarGAN (CelebA)](https://pan.baidu.com/s/1eSNpdRG#list/path=%2F): download 'CelebA/Img/img_align_celeba.zip' and 'CelebA/Anno/list_attr_celeba.txt'.
 ### Corresponding Paths
 
 ## Acknowledgement
