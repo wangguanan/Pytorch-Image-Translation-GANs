@@ -1,9 +1,7 @@
 # Pytorch-Image-Translation-GANs
 
 Pixel2Pixel
-
 CycleGAN
-
 StarGAN
 
 
