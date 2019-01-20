@@ -103,7 +103,3 @@ class Loaders:
         self.test_loader = data.DataLoader(dataset=test_set, batch_size=config.batch_size, shuffle=False, num_workers=1)
 
         self.train_iter = IterLoader(self.train_loader)
-
-
-
-

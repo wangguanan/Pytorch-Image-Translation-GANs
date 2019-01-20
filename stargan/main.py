@@ -50,8 +50,6 @@ if __name__ == '__main__':
     parser.add_argument('--lambda_rec', type=float, default=10)
     parser.add_argument('--n_critics', type=int, default=5)
 
-
-
     # main function
     config = parser.parse_args()
     main(config)

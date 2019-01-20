@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from torchvision.utils import save_image
 import os
-import copy
 import numpy as np
 
 from models import Generator, Discriminator
@@ -116,10 +115,10 @@ class Solver:
 
     def train(self):
 
-        fixed_real_images, fixed_real_labels = self.loaders.train_iter.next_one()
-        fixed_target_labels = fixed_real_labels[torch.randperm(fixed_real_labels.size(0))]
-        fixed_real_images, fixed_real_labels, fixed_target_labels = \
-            fixed_real_images.to(self.device), fixed_real_labels.to(self.device), fixed_target_labels.to(self.device)
+        # fixed_real_images, fixed_real_labels = self.loaders.train_iter.next_one()
+        # fixed_target_labels = fixed_real_labels[torch.randperm(fixed_real_labels.size(0))]
+        # fixed_real_images, fixed_real_labels, fixed_target_labels = \
+        #     fixed_real_images.to(self.device), fixed_real_labels.to(self.device), fixed_target_labels.to(self.device)
 
         x_fixed, c_org = self.loaders.train_iter.next_one()
         x_fixed = x_fixed.to(self.device)

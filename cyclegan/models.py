@@ -102,10 +102,3 @@ class Discriminator(nn.Module):
         x = self.model(x)
         out_src = self.conv_src(x)
         return out_src
-
-
-
-if __name__ == '__main__':
-
-    pass
-

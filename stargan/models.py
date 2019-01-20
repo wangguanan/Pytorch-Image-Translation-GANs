@@ -1,8 +1,5 @@
 import torch
 import torch.nn as nn
-import numpy as np
-
-from tools import label2onehot
 
 
 def weights_init_normal(m):
@@ -111,19 +108,3 @@ class Discriminator(nn.Module):
         out_cls = self.conv_cls(x)
         out_cls = out_cls.view(out_cls.size(0), out_cls.size(1))
         return out_src, out_cls
-
-
-
-if __name__ == '__main__':
-
-    discriminator = Discriminator(image_size=256, conv_dim=32, layer_num=6, class_num=10)
-
-    images = torch.randn([2, 3, 256, 256])
-    c = torch.randn([2, 10])
-    out_src, out_cls = discriminator(images)
-    print out_src.size()
-    print out_cls.size()
-
-    g = Generator(class_num=10, conv_dim=32, layer_num=4)
-    x = g(images, c)
-    print x.size()

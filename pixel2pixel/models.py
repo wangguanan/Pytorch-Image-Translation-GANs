@@ -136,7 +136,3 @@ class Generator(nn.Module):
         return self.final(u7)
 
 
-if __name__ == '__main__':
-
-    pass
-
