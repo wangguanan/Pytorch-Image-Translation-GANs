@@ -53,6 +53,3 @@ if __name__ == '__main__':
     # main function
     config = parser.parse_args()
     main(config)
-
-
-

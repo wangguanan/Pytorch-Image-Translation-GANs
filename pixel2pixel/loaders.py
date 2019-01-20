@@ -33,7 +33,6 @@ class Loaders:
         self.test_loader = data.DataLoader(dataset=test_set, batch_size=self.batch_size, shuffle=False, num_workers=4, drop_last=False)
 
 
-
 class ImageFolder(Dataset):
     '''
     Load images given the path

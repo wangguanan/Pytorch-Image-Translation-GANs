@@ -134,5 +134,3 @@ class Generator(nn.Module):
         u7 = self.up7(u6, d1)
 
         return self.final(u7)
-
-
