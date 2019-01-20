@@ -5,7 +5,7 @@ Pytorch implementations of most popular image-translation GANs, including [Pixel
 * [Anaconda (Python 2.7)](https://www.anaconda.com/download/)
 * [PyTorch 0.4.0](http://pytorch.org/)
 
-## Preparing Datasets
+## Prepare Datasets
 
 * [Pixel2Pixel (Facade)](http://cmp.felk.cvut.cz/~tylecr1/facade/CMP_facade_DB_base.zip).
 * [CycleGAN (Apple2Orange)](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/apple2orange.zip).
